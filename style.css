@@ -10,7 +10,7 @@
  width: 100%;
  background-size: cover;
  background-position: center;
-    background-image:url(./imgg/background.jpg ) ;
+    background-image:url(./background.jpg ) ;
 }
 header{
     display: flex;
