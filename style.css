@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+        font-family: "work sans", "sans -serif";
+    box-sizing: border-box;
+}
+.back{
+ height: 100vh;
+ width: 100%;
+ background-size: cover;
+ background-position: center;
+    background-image:url(./imgg/background.jpg ) ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    flex-wrap: wrap;
+
+}
+.hero{
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.hero span{
+    color: #f9004d;
+}
+.onen ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 25px;
+}
+.onen ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: .4s;
+}
+.onen ul li a:hover{
+    color: #f9004d;
+    transform: scale(1.2) ;
+}
+.callme{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+    /* width: 30px; */
+}
+.callme:hover{
+transform: scale(1.2);
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translatey(-50%);
+    color: #fff;
+}
+.main h1{
+    font-size: 50px;
+    line-height: 12px;
+}
+.main h4{
+    color: rgb(195, 156, 231);
+    letter-spacing: 2px;
+}
+/* end1 */
+.about{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.content img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.content h2{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 75px;
+    margin-bottom: 25px;
+}
+.content h5{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 22px;
+    letter-spacing: 2px;
+}
+.content h5 span{
+    color: #f9004d;
+}
+.content p{
+    color: #fcfc;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: #fff;
+transition: .4s;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+/* endabout */
+.ser{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0;
+}
+.ser .title{
+    font-size: 75px
+    ;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 1130px;
+    margin: 30px auto;
+    color: #fff;
+}
+.ser .boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:400px ;
+    flex-wrap: wrap;
+}
+.ser .boxs .card{
+height: 363px;
+width: 335px;
+padding: 25px 35px
+;
+background-color: #191919;
+border-radius: 20px;
+margin: 10px;
+text-align: center;
+overflow: hidden;
+}
+.ser .boxs .card i{
+    color: #f9004d;
+    font-size: 50px;
+    margin: 25px 0;
+}
+.ser .boxs .card h5{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+
+.ser .boxs .card .pone{color: #fcfc;
+    line-height: 27px;
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+@media (max-width:950Px) {
+    .ser .title{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+
+    }
+}
+/* endser */
+.contact-me{
+    width: 100%;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    background-color: #191919;
+    justify-content: center;
+    align-items: center;
+}
+.contact-me p{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+footer h1{
+    color: #fff;
+    font-size: 50px;
+}
+footer .na li {
+    display: inline-block;
+    padding-left: 30px;
+}
+
+footer .na li a{
+    background-color: #f9004d;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    transition: .4s;
+    border-radius: 30px;
+}
+footer .na li a:hover{
+    background-color: transparent;
+    border: 2px solid white;
+}
+@media (max-width:950Px) {
+    .contact-me p{
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+}
